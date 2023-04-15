@@ -1,0 +1,63 @@
+body {
+    background: #00c6ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0072ff, #00c6ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0072ff, #00c6ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    scroll-behavior: smooth;
+}
+
+
+.menu button {
+    appearance: none;
+    background-color: transparent;
+    border: .125em solid #1A1A1A;
+    cursor: pointer;
+    background-image: linear-gradient(to left, #0072ff, #00c6ff);
+    background-size: 500% 400%;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    transition: 0.6s all;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    border: 0px solid;
+    transition: all .2s ease-in-out;
+}
+
+.site-btn a {
+    text-decoration: none;
+}
+
+.menu button:hover {
+    background-position: 75% 50%;
+    color: white;
+    transform: perspective(100px);
+    transform: scale(1.1);
+}
+
+.menu button:active {
+    transform: scale(0.9);
+    transition: 0.1s;
+}
+
+.menu-box {
+    float: left;
+    border: 10px solid white;
+    border-radius: 10px;
+    width: 100px;
+    height: 400px;
+    background-color: white;
+    animation: loadInTransition 1.5s ease;
+}
+
+@keyframes loadInTransition {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
