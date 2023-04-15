@@ -1,0 +1,167 @@
+body {
+    background: #00c6ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0072ff, #00c6ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0072ff, #00c6ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    scroll-behavior: smooth;
+}
+
+.site-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.profile {
+    margin-left: 150px;
+    margin-right: 100px;
+    text-align: center;
+    border: 10px solid white;
+    border-radius: 10px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: loadInTransition 1.5s ease;
+}
+
+.menu button {
+    appearance: none;
+    background-color: transparent;
+    border: .125em solid #1A1A1A;
+    cursor: pointer;
+    background-image: linear-gradient(to left, #0072ff, #00c6ff);
+    background-size: 500% 400%;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    transition: 0.6s all;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    border: 0px solid;
+}
+
+.site-btn a {
+    text-decoration: none;
+}
+
+.menu button:hover {
+    background-position: 75% 50%;
+    transform: perspective(100px)
+}
+
+.menu button:active {
+    transform: scale(0.95);
+    transition: 0.1s;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links div {
+    margin: 10px;
+}
+
+.header-box {
+    float: left;
+    border: 10px solid white;
+    border-radius: 10px;
+    width: 100px;
+    height: 400px;
+    background-color: white;
+    animation: loadInTransition 1.5s ease;
+}
+
+.profile-pic {
+    margin: 10px;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.link-btn {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #1A1A1A;
+    cursor: pointer;
+    height: 45px;
+    width: 80px;
+    border: 0px solid;
+    background-image: linear-gradient(to left, #0072ff, #00c6ff);
+    background-size: 500% 400%;
+    color: white;
+    border-radius: 50px;
+    transition: 0.6s all;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.link-btn img {
+    display: block;
+    margin: 0 auto;
+}
+
+.link-btn:hover {
+    background-position: 75% 50%;
+    transform: perspective(100px)
+}
+
+.link-btn:active {
+    transform: scale(0.95);
+    transition: 0.1s;
+}
+
+.twitter {
+    margin-left: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    align-content: center;
+}
+
+.twitter-logo {
+    float: left;
+    width: 30px;
+}
+
+.github-logo {
+    float: left;
+    width: 30px;
+}
+
+.linkedin-logo {
+    float: left;
+    width: 30px;
+    margin-left: 13px;
+    margin-top: 1px;
+}
+
+.phone-logo {
+    float: left;
+    width: 24px;
+    margin-top: 3px;
+    margin-left: 15px;
+}
+
+.email-logo {
+    float: left;
+    width: 30px;
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+@keyframes loadInTransition {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
