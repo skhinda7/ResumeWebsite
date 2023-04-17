@@ -1,0 +1,14 @@
+.experience {
+    margin-left: 150px;
+    margin-right: 100px;
+    text-align: center;
+    border: 10px solid white;
+    border-radius: 10px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: loadInTransition 1.5s ease;
+}
