@@ -1,17 +1,20 @@
-.profile {
+.home-box {
     margin-top: 1%;
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
     border: 10px solid white;
     border-radius: 10px;
-    height: 400px;
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     animation: loadInTransition 1.5s ease;
+}
+
+#name,
+#occupancy,
+#quote {
+    font-size: 150%;
 }
 
 .links {
@@ -26,24 +29,21 @@
 
 .profile-pic {
     margin: 10px;
-    border-radius: 50%;
-    width: 150px;
+    border-radius: 100%;
+    width: 300px;
+    transition: 0.3s all;
 }
 
 .link-btn {
     appearance: none;
-    background-color: transparent;
-    border: 0.125em solid #1A1A1A;
     cursor: pointer;
     height: 45px;
     width: 80px;
     border: 0px solid;
     background-image: linear-gradient(to left, #0072ff, #00c6ff);
     background-size: 500% 400%;
-    color: white;
     border-radius: 50px;
     transition: 0.3s all;
-    align-content: center;
     align-items: center;
     display: flex;
 }
@@ -98,6 +98,27 @@
     margin-top: 4px;
 }
 
+.under-pfp-txt {
+    font-size: larger;
+}
+
+#generated-quote {
+    font-size: large;
+}
+
+#author {
+    font-size: medium;
+}
+
+.quote-box {
+    display: flex;
+}
+
+.btn button {
+    justify-content: center;
+}
+
+
 @media(max-width: 650px) {
     .profile {
         margin-top: 1%;
@@ -107,5 +128,9 @@
 
     .link-btn {
         width: 50px;
+    }
+
+    .profile-pic {
+        width: 150px;
     }
 }

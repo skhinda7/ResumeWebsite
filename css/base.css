@@ -8,42 +8,33 @@ body {
     scroll-behavior: smooth;
 }
 
-.menu button {
-    appearance: none;
-    background-color: transparent;
-    border: solid #1A1A1A;
+.btn button {
+    margin: 5px;
     cursor: pointer;
     background-image: linear-gradient(to left, #0072ff, #00c6ff);
     background-size: 500% 400%;
+    cursor: pointer;
     border-radius: 50px;
-    width: 100px;
-    height: 60px;
-    transition: 0.6s all;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    border: 0px solid;
     transition: all .2s ease-in-out;
-    font-size: large;
+    border: 0px solid;
 }
 
-.site-btn {
+.btn {
     float: left;
-    margin: 5px;
 }
 
-.site-btn a {
+.btn a {
     text-decoration: none;
 }
 
-.menu button:hover {
+.btn button:hover {
     background-position: 75% 50%;
     color: white;
     transform: perspective(100px);
     transform: scale(1.1);
 }
 
-.menu button:active {
+.btn button:active {
     transform: scale(0.9);
     transition: 0.1s;
 }
@@ -59,6 +50,14 @@ body {
     background-color: white;
     animation: loadInTransition 1.5s ease;
     margin: 0 auto;
+}
+
+.menu button {
+    width: 100px;
+    height: 60px;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
 }
 
 @keyframes loadInTransition {

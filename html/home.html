@@ -16,28 +16,28 @@
         <div class="menu-box">
             <div class="menu">
                 <div>
-                    <div class="site-btn">
+                    <div class="btn" id="home-btn">
                         <a id="home" href="../html/home.html">
                             <button class="home-btn">
                                 Home
                             </button>
                         </a>
                     </div>
-                    <div class="site-btn">
+                    <div class="btn" id="abt-me-btn">
                         <a id="abt-me" href="../html/about-me.html">
                             <button class="abt-me-btn">
                                 About Me
                             </button>
                         </a>
                     </div>
-                    <div class="site-btn">
+                    <div class="btn" id="education-btn">
                         <a href="../html/education.html">
                             <button class="education-btn">
                                 Education
                             </button>
                         </a>
                     </div>
-                    <div class="site-btn">
+                    <div class="btn" id="experience-btn">
                         <a href="../html/experience.html">
                             <button class="experience-btn">
                                 Experience
@@ -47,13 +47,16 @@
                 </div>
             </div>
         </div>
-        <div class="profile">
+        <div class="home-box" id="profile">
             <div class="profile-picture">
                 <img class="profile-pic" src="../images/profile_icon.png">
             </div>
-            <div class="name">Simar Khinda
+            <div class="txt" id="name">
+                Simardeep S. Khinda
             </div>
-            <div class="subtitle">Student</div>
+            <div class="txt" id="occupancy">
+                Full-Time Student
+            </div>
             <hr>
             <div class="links">
                 <div class="email">
@@ -95,9 +98,26 @@
                         </button>
                     </a>
                 </div>
-
             </div>
         </div>
+
+        <div class="quote-box">
+            <div class="home-box">
+                <div class="txt" id="quote">
+                    <div id="generated-quote">
+                    </div>
+                    <div id="author">
+
+                    </div>
+                    <div class="btn" id="quote-btn">
+                            <button class="get-quote" onclick="getRandQuote()">
+                                New Quote
+                            </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
