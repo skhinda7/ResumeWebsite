@@ -1,9 +1,10 @@
 .page-info {
-    margin-left: 150px;
-    margin-right: 100px;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
     border: 10px solid white;
     border-radius: 10px;
-    height: 400px;
     background-color: white;
     display: flex;
     flex-direction: column;
