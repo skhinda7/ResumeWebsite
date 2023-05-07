@@ -19,7 +19,11 @@ body {
     border: 0px solid;
 }
 
-.btn {
+#home-btn,
+#abt-me-btn,
+#education-btn,
+#experience-btn,
+#resume-btn {
     float: left;
 }
 

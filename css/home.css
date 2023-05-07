@@ -110,9 +110,15 @@
     font-size: medium;
 }
 
+#quote-btn {
+    margin-top: 2%;
+}
 
-.btn button {
-    justify-content: center;
+.get-quote {
+    width: 100px;
+    height: 60px;
+    font-size: medium;
+    margin-top: 10%;
 }
 
 
