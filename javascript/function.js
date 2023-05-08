@@ -15,7 +15,7 @@ async function getRandQuote() {
 }
 
 async function fillTextToDiv(text, htmlLocation) {
-    const textFile = (`../text/${text}.txt`);
+    const textFile = (`../other/${text}.txt`);
     const response = await fetch(textFile, {
         method: 'GET',
     });

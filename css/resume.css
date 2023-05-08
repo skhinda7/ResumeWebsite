@@ -1,4 +1,4 @@
-.education {
+.resume {
     margin-top: 1%;
     margin-left: 5%;
     margin-right: 5%;
@@ -9,4 +9,18 @@
     display: flex;
     flex-direction: column;
     animation: loadInTransition 1.5s ease;
+}
+
+.resume button {
+    width: 100px;
+    height: 60px;
+}
+
+.resume .btn {
+    padding: 10px;
+}
+
+#embed {
+    width: 80%;
+    height: 600px;
 }
