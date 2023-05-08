@@ -1,5 +1,6 @@
-Hello! My name is Simardeep. 
+Hello! My name is Simardeep Khinda. 
 I am a sophomore at Embry-Riddle Aeronautical University. 
 I am currently working towards my B.S. in Computer Science with a minor in Business Administration. 
 Through this website, I wanted to exhbit my skills and knowledge towards front-end programming. 
 I have used elements of HTML, CSS, and JavaScript to complete this online portfolio.
+ 

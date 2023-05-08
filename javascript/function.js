@@ -24,3 +24,6 @@ async function fillTextToDiv(text, htmlLocation) {
 
     textDiv.textContent = result;
 }
+
+
+
