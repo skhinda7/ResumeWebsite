@@ -25,5 +25,28 @@ async function fillTextToDiv(text, htmlLocation) {
     textDiv.textContent = result;
 }
 
+function pickRandGradient() {
+    const list = fetchJSON('../javascript/randomgrad.json');
+
+    var randomIndex = Math.floor(Math.random() * list.length);
+    var randomName = list[randomIndex].name;
+    var colors = [list[randomIndex].colors[0], list[randomIndex].colors[1], list[randomIndex].colors[2]];
+
+    console.log("Random Name: " + randomName);
+    console.log("Colors: " + colors);
+
+    const pickedColor = [randomName, colors];
+
+    return pickedColor;
+}
+
+async function fetchJSON(location) {
+    const object = await fetch(location, {
+        method: 'GET',
+    })
+    return object.json();
+}
+
+pickRandGradient();
 
 

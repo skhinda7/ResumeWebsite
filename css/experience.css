@@ -1,12 +1,16 @@
 .experience {
     margin-top: 1%;
-        margin-left: 5%;
-        margin-right: 5%;
-        text-align: center;
-        border: 10px solid white;
-        border-radius: 10px;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        animation: loadInTransition 1.5s ease;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    border: 10px solid white;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    animation: loadInTransition 1.5s ease;
+}
+
+#info-txt {
+    margin: auto;
 }
