@@ -74,11 +74,14 @@ body {
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 600px) {
+    
+    
     .menu button {
         height: 40px;
-        width: 90px;
+        width: 70px;
         font-size: small;
         margin-top: 10px;
     }
+
 }

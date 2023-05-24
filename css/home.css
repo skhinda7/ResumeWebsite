@@ -121,6 +121,10 @@
     margin-top: 10%;
 }
 
+#project-title {
+    font-size: 150%;
+}
+
 
 @media(max-width: 650px) {
     .profile {
