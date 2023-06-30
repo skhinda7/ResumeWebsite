@@ -16,8 +16,18 @@
 
 <body>
     <div class="landing-page">
+        <button class="hamburger">
+            <div class="bar"></div>
+        </button>
+        <nav class="mobile-nav">
+            <a href="../html/home.html">Home</a>
+            <a href="../html/about-me.html">About Me</a>
+            <a href="../html/education.html">Education</a>
+            <a href="../html/experience.html">Experience</a>
+            <a href="../html/resume.html">Resume</a>
+        </nav>
         <div class="menu-box">
-            <div class="menu">
+            <div class="menu" id="nav-menu">
                 <div class="btn" id="home-btn">
                     <a id="home" href="../html/home.html">
                         <button class="home-btn">
@@ -123,67 +133,7 @@
                     </div>
                 </div>
             </div>
-            <div class="project-box">
-                <div class="home-box">
-                    <p id="project-title">Check out my other projects!</p>
-                    <div class="projects-container">
-                        <div class="btn" id="slide-btn">
-                            <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
-                            <button class="next" onclick="plusSlides(1)">&#10095;</button>
-                        </div>
-                        <div class="project">
-                            <div class="slide-num">
-                                1/2
-                            </div>
-                            <div class="content">
-                                <div id="title"><b>Weather Prediction</b></div>
-                                <br>
-                                <div id="text"> Linear and polynomial regression are implemented to predict
-                                    weather data for the next 10 days. As an additional method of prediction, the
-                                    average is taken of both regressions for each day. The models are trained, then used
-                                    to predict from
-                                    which the
-                                    user can save the data and display a graph for visualization. The Apache Commons
-                                    Maths Library was used for polynimal curve fitting.</div>
-                                <br>
-                                <div class="btn">
-                                    <button id="code-btn">
-                                        <a href="https://github.com/skhinda7/WeatherPrediction" target="_blank">Source
-                                            Code</a>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="slide-num">
-                            2/2
-                        </div>
-                        <div class="content">
-                            <div id="title"><b>Maze Game</b></div>
-                            <br>
-                            <div id="text">This game has been designed as a semester assignment for CS 225 (Computer
-                                Science II). The user is asked for the size of the maze, then the maze is populated with
-                                different types of tiles that have different attributes and actions, after the game is
-                                started, the agent randomly moves through the maze and the game informs the user if the
-                                agent made it to the finishing tile.</div>
-                            <br>
-                            <div class="btn">
-                                <button id="code-btn">
-                                    <a href="https://github.com/skhinda7/MazeGame" target="_blank">Source
-                                        Code</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div style="text-align:center">
-                        <span class="dot" onclick="currentSlide(1)"></span>
-                        <span class="dot" onclick="currentSlide(2)"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
+            
         <div class="footer">
             <br>
             Created by Simardeep Khinda. Made with &lt;3 using Vanilla JS, HTML, and CSS
