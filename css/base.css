@@ -83,8 +83,8 @@ body {
 }
 
 @media (max-width: 1000px) {
-    
-    
+
+
     .menu button {
         height: 30px;
         width: 70px;
@@ -93,7 +93,7 @@ body {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1000px) {
 
     .menu-box {
         display: none;
@@ -118,7 +118,9 @@ body {
         margin-left: 87%;
     }
 
-    .hamburger .bar, .hamburger:after, .hamburger:before {
+    .hamburger .bar,
+    .hamburger:after,
+    .hamburger:before {
         content: '';
         display: block;
         width: 100%;
@@ -179,5 +181,3 @@ body {
         background-color: #0060ff;
     }
 }
-
-
