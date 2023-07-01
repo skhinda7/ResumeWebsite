@@ -82,7 +82,7 @@ body {
     }
 }
 
-@media (max-width: 725px) {
+@media (max-width: 1000px) {
     
     
     .menu button {
@@ -93,7 +93,7 @@ body {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
 
     .menu-box {
         display: none;
