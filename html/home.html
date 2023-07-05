@@ -9,7 +9,7 @@
     <script src="../javascript/function.js"></script>
     <script>
         window.addEventListener('load', getRandQuote());
-        window.addEventListener('load',);
+        window.addEventListener('load', fillTextToDiv('about-me', 'info-txt'));
     </script>
     <title>Landing Page</title>
 </head>
@@ -20,11 +20,19 @@
             <div class="bar"></div>
         </button>
         <nav class="mobile-nav">
-            <a href="../html/home.html">Home</a>
-            <a href="../html/about-me.html">About Me</a>
-            <a href="../html/education.html">Education</a>
-            <a href="../html/experience.html">Experience</a>
-            <a href="../html/resume.html">Resume</a>
+            <a href="../html/home.html">
+                <h1 id="home-nav-btn">Home</h1>
+            </a>
+            <a href="../html/resume.html">
+                <h1 id="home-nav-btn">Resume</h1>
+            </a>
+            <a href="../html/education.html">
+                <h1 id="home-nav-btn">Projects</h1>
+
+            </a>
+            <a href="../html/experience.html">
+                <h1 id="home-nav-btn">Contact Me</h1>
+            </a>
         </nav>
         <div class="menu-box">
             <div class="menu" id="nav-menu">
@@ -117,6 +125,14 @@
                     </a>
                 </div>
             </div>
+        </div>
+        <div class="about-me">
+            <div class="home-box">
+                <div id="info-txt">
+
+                </div>
+            </div>
+
         </div>
 
         <div class="quote-box">

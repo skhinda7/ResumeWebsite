@@ -6,5 +6,4 @@ I have used elements of HTML, CSS, and Vanilla JavaScript to complete this onlin
 My current goal is to dive deeper into programming and learn not only the basics of front-end programming but also dig into frameworks and eventually, back-end developing as well.
 
 
-As a demonstration of my skills, I have displayed a few special elements on the Home Page of this website. As this is my first finished HTML project, I plan to create even better pages with better design and additional functionality.
  
