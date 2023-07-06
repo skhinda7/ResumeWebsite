@@ -1,0 +1,9 @@
+.projects {
+    width: 500px;
+    align-items: center;
+    display: block;
+}
+
+#projects-box {
+    align-items: center;
+}

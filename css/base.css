@@ -19,9 +19,22 @@ body {
     border: 0px solid;
 }
 
+.base-box {
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    border: 10px solid white;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    animation: loadInTransition 1.5s ease;
+}
+
 #home-btn,
-#abt-me-btn,
-#education-btn,
+#projects-btn,
+#contact-btn,
 #experience-btn,
 #resume-btn {
     float: left;
