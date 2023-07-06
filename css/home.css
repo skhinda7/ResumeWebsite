@@ -2,6 +2,8 @@
 #occupancy,
 #quote {
     font-size: 150%;
+    width: 500px;
+    align-self: center;
 }
 
 .links {
@@ -108,22 +110,10 @@
     margin-top: 10%;
 }
 
-#project-title {
-    font-size: 150%;
+#info-txt {
+    width: 500px;
+    align-self: center;
 }
-
-.prev,
-.next {
-    cursor: pointer;
-}
-
-#slide-btn button {
-    margin-right: 23%;
-    margin-left: 23%;
-    font-size: x-large;
-}
-
-
 
 .dot {
     cursor: pointer;
@@ -148,10 +138,9 @@
 }
 
 @media(max-width: 725px) {
-    .profile {
-        margin-top: 1%;
-        margin-left: 5%;
-        margin-right: 5%;
+
+    #profile {
+        margin-top: 100px;
     }
 
     .link-btn {
@@ -169,12 +158,6 @@
 }
 
 @media screen and (max-width: 500px) {
-    .profile {
-        margin-top: 1%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
     .link-btn {
         width: 50px;
     }
