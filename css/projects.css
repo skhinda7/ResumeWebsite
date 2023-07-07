@@ -15,3 +15,9 @@
 #project-2 {
     margin-top: 30px;
 }
+
+@media screen and (max-width: 650px) {
+    .projects {
+        width: 300px;
+    }
+}

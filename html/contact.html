@@ -1,5 +1,89 @@
 <!DOCTYPE html>
 
 <head>
-    
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <meta charset="UTF-8">
+    <script src="../javascript/function.js"></script>
+    <title>Contact</title>
 </head>
+
+<body>
+    <div class="header">
+        <div class="menu-header">
+            <button class="hamburger">
+                <div class="bar"></div>
+            </button>
+            <nav class="mobile-nav">
+                <a href="../html/home.html">
+                    <h1 id="home-nav-btn">Home</h1>
+                </a>
+                <a href="../html/resume.html">
+                    <h1 id="home-nav-btn">Resume</h1>
+                </a>
+                <a href="../html/projects.html">
+                    <h1 id="home-nav-btn">Projects</h1>
+
+                </a>
+                <a href="../html/experience.html">
+                    <h1 id="home-nav-btn">Experience</h1>
+                </a>
+                <a href="../html/contact.html">
+                    <h1 id="home-nav-btn">Contact</h1>
+                </a>
+            </nav>
+            <div class="menu-box">
+                <div class="menu" id="nav-menu">
+                    <div class="btn" id="home-btn">
+                        <a id="home" href="../html/home.html">
+                            <button class="home-btn">
+                                Home
+                            </button>
+                        </a>
+                    </div>
+                    <div class="btn" id="resume-btn">
+                        <a href="../html/resume.html">
+                            <button class="resume-btn">
+                                Resume
+                            </button>
+                        </a>
+                    </div>
+                    <div class="btn" id="projects-btn">
+                        <a href="../html/projects.html">
+                            <button class="projects-btn">
+                                Projects
+                            </button>
+                        </a>
+                    </div>
+                    <div class="btn" id="experience-btn">
+                        <a href="../html/experience.html">
+                            <button class="experience-btn">
+                                Experience
+                            </button>
+                        </a>
+                    </div>
+                    <div class="btn" id="contact-btn">
+                        <a href="../html/contact.html">
+                            <button class="contact-btn">
+                                Contact
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-container">
+        <div class="base-box">
+            <h2>Contact Me!</h2>
+            <form onsubmit="sendEmail(); reset(); return false;">
+                <input type="text" id="name" placeholder="John Doe" required>
+                <input type="email" id="email" placeholder="johndoe@email.com" required>
+                <input type="text" id="phone" placeholder="123-456-7890">
+                <textarea id="message" rows="4" placeholder="Your Message Here"></textarea>
+                <button class="btn" id="send-msg-btn" type="submit">Send Message</button>
+            </form>
+        </div>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+    </div>
+</body>

@@ -28,3 +28,9 @@
 .non-recent div {
     margin-top: 30px;
 }
+
+@media screen and (max-width: 650px) {
+    .xp {
+        width: 300px;
+    }
+}

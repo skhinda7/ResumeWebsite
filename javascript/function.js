@@ -64,6 +64,19 @@ window.onload = function () {
         menu_btn.classList.toggle("is-active");
         mobile_menu.classList.toggle("is-active");
     })
+}
 
-
+function sendEmail() {
+    Email.send({
+        SecureToken: "969a3e0c-20e3-41f2-a54f-d6359f5e9c85",
+        To: 'khindas@my.erau.edu',
+        From: document.getElementById('email').value,
+        Subject: "Contact Form Enquiry",
+        Body: "Name: " + document.getElementById('name').value
+            + "<br> Email: " + document.getElementById('email').value
+            + "<br> Phone: " + document.getElementById('phone').value
+            + "<br> Message: " + document.getElementById('message').value
+    }).then(
+        message => alert("Message Sent Successfully!")
+    );
 }
