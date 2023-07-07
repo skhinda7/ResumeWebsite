@@ -77,6 +77,6 @@ function sendEmail() {
             + "<br> Phone: " + document.getElementById('phone').value
             + "<br> Message: " + document.getElementById('message').value
     }).then(
-        message => alert("Message Sent Successfully!")
+        message => alert(message)
     );
 }
