@@ -34,3 +34,33 @@ form button {
     height: 50px;
     align-self: center;
 }
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    border: solid;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 6px 6px #00c6ff;
+    align-self: center;
+}
+
+#status {
+    display: none;
+    font-size: larger;
+    border: 10px solid green;
+    background-color: green;
+    width: 500px;
+    margin-bottom: 10px;
+    align-self: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.input {
+    width: 400px;
+}
