@@ -108,10 +108,11 @@
     height: 60px;
     font-size: medium;
     margin-top: 10%;
+    color: black;
 }
 
 #info-txt {
-    width: 500px;
+    max-width: 500px;
     align-self: center;
 }
 
@@ -137,7 +138,107 @@
     justify-content: center;
 }
 
-@media(max-width: 725px) {
+@media screen and (max-width: 1500px) {
+    .link-btn {
+        height: 45px;
+        width: 80px;
+    }
+}
+
+@media(max-width: 1000px) {
+
+    .get-quote {
+        width: 200px;
+        height: 80px;
+        font-size: 25px;
+    }
+
+    #profile {
+        height: 1000px;
+        justify-content: center;
+    }
+
+    .link-btn img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .link-btn:hover {
+        background-position: 75% 50%;
+        transform: perspective(100px);
+        transform: scale(1.1);
+    }
+    
+    .link-btn:active {
+        transform: scale(0.9);
+        transition: 0.1s;
+    }
+
+    #name,
+    #occupancy, #quote {
+    font-size: 300%;
+    width: 500px;
+    align-self: center;
+    }
+
+    #generated-quote, #author, #quote-box {
+        font-size: 30px;
+    }
+
+    #name {
+        margin: 35px 0px 50px 0px;
+    }
+
+    .profile-pic {
+        margin: 10px;
+        border-radius: 100%;
+        width: 400px;
+        transition: 0.3s all;
+    }
+
+    .link-btn {
+        appearance: none;
+        cursor: pointer;
+        height: 100px;
+        width: 130px;
+        border: 0px solid;
+        background-image: linear-gradient(to left, #0072ff, #00c6ff);
+        background-size: 500% 400%;
+        border-radius: 50px;
+        transition: 0.3s all;
+        align-items: center;
+        display: flex;
+    }
+
+
+    .link-btn:hover {
+        background-position: 75% 50%;
+        transform: perspective(100px);
+        transform: scale(1.1);
+    }
+
+    .link-btn:active {
+        transform: scale(0.9);
+        transition: 0.1s;
+    }
+
+    .twitter {
+        display: inline-block;
+        vertical-align: middle;
+        align-content: center;
+    }
+    .under-pfp-txt {
+        font-size: larger;
+    }   
+
+    #info-txt {
+        max-width: 1000px;
+        align-self: center;
+        padding: 5%;
+    }
+}
+
+@media(max-width: 784px) {
 
     #profile {
         margin-top: 100px;
@@ -148,7 +249,9 @@
     }
 
     .profile-pic {
-        width: 150px;
+        width: 400px;
+        height: 400px;
+        transition: 0.3s all;
     }
 
     #slide-btn button {
@@ -159,9 +262,7 @@
     .footer {
         font-size: 15px;
     }
-}
 
-@media screen and (max-width: 500px) {
     .link-btn {
         width: 50px;
     }
@@ -171,12 +272,22 @@
     }
 
 
-    .profile-pic {
-        width: 150px;
-    }
-
     #slide-btn button {
         margin-right: 20%;
         margin-left: 20%;
+    }
+
+    .link-btn {
+        appearance: none;
+        cursor: pointer;
+        height: 100px;
+        width: 100px;
+        border: 0px solid;
+        background-image: linear-gradient(to left, #0072ff, #00c6ff);
+        background-size: 500% 400%;
+        border-radius: 50px;
+        transition: 0.3s all;
+        align-items: center;
+        display: flex;
     }
 }
