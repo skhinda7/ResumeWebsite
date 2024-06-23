@@ -9,6 +9,7 @@
     <script src="../javascript/function.js"></script>
     <script>
         window.addEventListener('load', getRandQuote());
+        window.addEventListener('load', getRandFact());
         window.addEventListener('load', fillTextToDiv('about-me', 'info-txt'));
     </script>
     <title>Home Page</title>
@@ -127,7 +128,7 @@
                 <div class="twitter">
                     <a href="https://twitter.com/chefskhinda" target="_blank">
                         <button class="link-btn">
-                            <img class="twitter-logo" src="../images/twitter-icon.png">
+                            <img class="twitter-logo" src="../images/XLogo.svg">
                         </button>
                     </a>
                 </div>
@@ -145,7 +146,13 @@
         <div class="quote-box">
             <div class="base-box">
                 <div class="txt" id="quote">
+                    <!--
+                    <div id="title">
+                        <h3><b>Random Quote</b></h3>
+                    </div>
+                -->
                     <div id="generated-quote">
+                        <p><i id="italicize-quote"></i></p>
                     </div>
                     <div id="author">
                     </div>
@@ -156,11 +163,28 @@
                     </div>
                 </div>
             </div>
-
-            <div class="footer">
-                <br>
-                Created by Simardeep Khinda. Made with &lt;3 using Vanilla JS, HTML, and CSS
+            <div class="base-box">
+                <div class="txt" id="quote">
+                    <!--
+                    <div id="title">
+                        <h3><b>Did You Know...?</b></h3>
+                    </div>
+                -->
+                    <br>
+                    <div id="generated-fact">
+                    </div>
+                    <br>
+                    <div class="btn" id="fact-btn">
+                        <button class="get-quote" onclick="getRandFact()">
+                            New Fact
+                        </button>
+                    </div>
+                </div>
             </div>
+        </div>
+        <div class="footer">
+            <br>
+            Created by Simardeep Khinda. Made with &lt;3 using Vanilla JS, HTML, and CSS
         </div>
     </div>
 </body>

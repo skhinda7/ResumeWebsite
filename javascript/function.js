@@ -1,17 +1,30 @@
 async function getRandQuote() {
     const api_url = 'https://api.quotable.io/random'
-    const test = ('../javascript/test.json');
     const response = await fetch(api_url, {
         method: 'GET',
     });
     const result = await response.json();
-    const myQuote = document.getElementById('generated-quote');
+    const myQuote = document.getElementById('italicize-quote');
     const myAuthor = document.getElementById('author')
     const quote = result.content;
     const author = result.author;
 
-    myQuote.textContent = (`"${quote}"`);
+    myQuote.textContent = (`${quote}`);
     myAuthor.textContent = ("―" + author);
+}
+
+
+async function getRandFact() {
+    const factURL = 'https://nekos.life/api/v2/fact'
+    const res = await fetch(factURL, {
+        method: 'GET',
+    })
+    const result = await res.json();
+
+    const myFact = document.getElementById('generated-fact');
+    const fact = result.fact;
+
+    myFact.textContent = (`${fact}`);
 }
 
 async function fillTextToDiv(text, htmlLocation) {

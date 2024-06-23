@@ -53,6 +53,10 @@
     transition: 0.1s;
 }
 
+#generated-fact {
+    font-size: 18px;
+}
+
 .twitter {
     display: inline-block;
     vertical-align: middle;
@@ -61,7 +65,7 @@
 
 .twitter-logo {
     float: left;
-    width: 55%;
+    width: 45%;
 }
 
 .github-logo {
@@ -162,26 +166,29 @@
         display: block;
         margin: 0 auto;
     }
-    
+
     .link-btn:hover {
         background-position: 75% 50%;
         transform: perspective(100px);
         transform: scale(1.1);
     }
-    
+
     .link-btn:active {
         transform: scale(0.9);
         transition: 0.1s;
     }
 
     #name,
-    #occupancy, #quote {
-    font-size: 300%;
-    width: 500px;
-    align-self: center;
+    #occupancy,
+    #quote {
+        font-size: 300%;
+        width: 500px;
+        align-self: center;
     }
 
-    #generated-quote, #author, #quote-box {
+    #generated-quote,
+    #author,
+    #quote-box {
         font-size: 30px;
     }
 
@@ -227,9 +234,10 @@
         vertical-align: middle;
         align-content: center;
     }
+
     .under-pfp-txt {
         font-size: larger;
-    }   
+    }
 
     #info-txt {
         max-width: 1000px;

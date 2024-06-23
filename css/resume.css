@@ -17,7 +17,7 @@
 }
 
 .resume button {
-    width: 100px;
+    width: 125px;
     height: 60px;
 }
 
@@ -31,7 +31,9 @@
 }
 
 @media screen and (max-width: 767px) {
-    #item-resume, .introductory {
+
+    #item-resume,
+    .introductory {
         display: none;
     }
 }
@@ -40,6 +42,7 @@
     .txt {
         font-size: 30px;
     }
+
     .resume-dl-btn {
         font-size: 25px;
         color: black;
@@ -51,5 +54,3 @@
         margin-top: 1px;
     }
 }
-
-@edia
